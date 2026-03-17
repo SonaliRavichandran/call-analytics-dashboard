@@ -50,7 +50,8 @@ This dashboard is perfect for businesses or teams that need to track call perfor
 ## Deployment
 
 The live dashboard is deployed on Vercel:  
-[https://your-dashboard.vercel.app](https://your-dashboard.vercel.app)
+https://call-analytics-dashboard-woad.vercel.app/
+
 
 ---
 
@@ -59,4 +60,4 @@ The live dashboard is deployed on Vercel:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/call-analytics-dashboard.git
+
