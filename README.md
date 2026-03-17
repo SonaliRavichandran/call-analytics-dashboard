@@ -1,16 +1,61 @@
-# React + Vite
+# Call Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+The Call Analytics Dashboard is a React-based web application that allows users to monitor and analyze call logs in real time. Users can:
 
-Currently, two official plugins are available:
+- View total calls, total cost, average duration, and success/failure metrics.
+- Filter calls by caller name.
+- Visualize data through interactive charts (Duration, Cost, Timeline, City).
+- Export call logs as a CSV file.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This dashboard is perfect for businesses or teams that need to track call performance efficiently.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technology Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React, TailwindCSS
+- **Charts:** Chart.js / Recharts
+- **Data Handling:** JavaScript
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Screenshots
+
+### Dashboard Overview
+![Dashboard Screenshot](./screenshots/dashboard.png)
+
+### Call Logs Table
+![Call Logs Table Screenshot](./screenshots/table.png)
+
+---
+
+## Features
+
+- KPI Cards (Total Calls, Total Cost, Average Duration, Success, Failed)
+- Interactive Charts:
+  - Duration Chart
+  - Cost Chart
+  - Timeline Chart
+  - City Distribution Chart
+- Search and Filter Calls by Caller Name
+- CSV Export of Filtered Calls
+- Responsive Design for Mobile and Desktop
+
+---
+
+## Deployment
+
+The live dashboard is deployed on Vercel:  
+[https://your-dashboard.vercel.app](https://your-dashboard.vercel.app)
+
+---
+
+## Installation and Running Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/call-analytics-dashboard.git
