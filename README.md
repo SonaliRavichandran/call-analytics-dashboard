@@ -25,10 +25,11 @@ This dashboard is perfect for businesses or teams that need to track call perfor
 ## Screenshots
 
 ### Dashboard Overview
-![Dashboard Screenshot](./screenshots/d-1.png)
+![Dashboard Screenshot](./screenshots/d1.png)
+![Dashboard Screenshot](./screenshots/d2.png)
+![Dashboard Screenshot](./screenshots/d3.png)
 
-### Call Logs Table
-![Call Logs Table Screenshot](./screenshots/table.png)
+
 
 ---
 
