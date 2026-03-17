@@ -39,18 +39,17 @@ const Reports = () => {
         <DurationChart data={data} />
       </div>
 
-      {/* Call Cost Analytics */}
       <div className="bg-white dark:bg-slate-200 p-4 rounded shadow">
        
         <CostChart data={data} />
       </div>
 
-      {/* Call Activity Timeline */}
+     
       <div className="bg-white dark:bg-slate-200 p-4 rounded shadow">
         <TimelineChart data={data} />
       </div>
 
-      {/* Calls by City */}
+    
       <div className="bg-white dark:bg-slate-200 p-4 rounded shadow dark:text-black">
         <CityChart data={data} />
       </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { Menu, Sun, Moon } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Switch } from "@/components/ui/switch";
 
 const DashboardLayout = ({ children }) => {
@@ -13,7 +13,7 @@ const DashboardLayout = ({ children }) => {
   }, [dark]);
 
 
-  // ✅ Load saved theme on mount
+
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme === "dark") setDark(true);
@@ -27,14 +27,14 @@ const DashboardLayout = ({ children }) => {
   return (
     <div className="flex min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors">
 
-      {/* Sidebar */}
+      
       <div
         className={`${
           collapsed ? "w-16" : "w-60"
         } bg-gray-900 text-white p-4 transition-all duration-300`}
       >
 
-        {/* Header */}
+        
         <div className="flex items-center justify-between mb-6">
           {!collapsed && <h1 className="text-lg font-bold">Call Analytics</h1>}
           <button onClick={() => setCollapsed(!collapsed)}>
@@ -42,7 +42,7 @@ const DashboardLayout = ({ children }) => {
           </button>
         </div>
 
-        {/* Navigation */}
+        
         <ul className="space-y-3">
           <NavLink
             to="/"
@@ -70,15 +70,15 @@ const DashboardLayout = ({ children }) => {
 
       </div>
 
-      {/* Main Content */}
+     
       <div className="flex-1 p-6 text-gray-900 dark:text-white transition-colors">
 
-        {/* Top Bar */}
+        
         <div className="flex justify-between items-center mb-6">
 
           <h2 className="text-2xl font-semibold">Dashboard Panel</h2>
 
-          {/* 🌙 Dark Mode Switch */}
+          
           <div className="flex items-center p-1 gap-2 bg-slate-600 text-white">
             <span>Dark Mode</span>
             <Switch checked={dark} onCheckedChange={setDark} />
